@@ -1,0 +1,47 @@
+.container {
+    min-height: 100vh;
+    min-width: 60vw;
+    padding-top: 20px;
+    display: flex;
+    background: #355C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.row {
+    display: flex;
+    flex-grow: 1 0 auto;
+}
+.title {
+    background: #000408;
+    color: white;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+.list {
+    overflow: auto;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+[data-reach-combobox-option] {
+    background-color: white;
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+}
+[data-reach-combobox-input]  {
+    padding-left: 20px;
+}
